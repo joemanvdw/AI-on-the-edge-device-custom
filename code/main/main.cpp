@@ -137,9 +137,9 @@ bool Init_NVS_SDCard()
 #ifdef __SD_USE_ONE_LINE_MODE__
     slot_config.width = 1;
 #ifdef CONFIG_SOC_SDMMC_USE_GPIO_MATRIX
-    slot_config.clk = GPIO_SDCARD_CLK;
-    slot_config.cmd = GPIO_SDCARD_CMD;
-    slot_config.d0 = GPIO_SDCARD_D0;
+    slot_config.clk = (gpio_num_t)17;
+    slot_config.cmd = (gpio_num_t)15;
+    slot_config.d0 = (gpio_num_t)16;
 #endif // end CONFIG_SOC_SDMMC_USE_GPIO_MATRIX
 #else  // else __SD_USE_ONE_LINE_MODE__
     slot_config.width = 4;
