@@ -665,7 +665,7 @@ There are some ideas and feature requests which are not currently being pursuedâ
                 <a href="https://github.com/ppisljar">
                     <img src="https://avatars.githubusercontent.com/u/13629809?v=4" width="100;" alt="ppisljar"/>
                     <br />
-                    <sub><b>Peter Pisljar</b></sub>
+                    <sub><b>Peter Pisljar.</b></sub>
                 </a>
             </td>
 		</tr>
